@@ -17,4 +17,3 @@ Just wrapped up refining a housing price prediction project using Linear Regress
 To further enhance analysis, I incorporated insightful visualizations. I also generated scatter plots of predicted versus actual prices, to visually assess the model's accuracy. Residual plots helped to identify and understand error patterns, while residual histograms provided a clear picture of the error distribution. These visualizations are crucial for gaining a deeper understanding of model behavior and identifying potential areas for improvement.
 By applying these best practices in regression analysis, I have strengthened the project's reliability and provided a more comprehensive evaluation of our predictive models. This approach ensures more accurate and valuable insights for real-world applications.
 Skills: Data Cleaning · Data Visualization · Exploratory Data Analysis · Predictive Modeling · Linear Regression · Machine Learning Algorithms
----
