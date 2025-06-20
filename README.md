@@ -5,7 +5,7 @@
 
 In this project i completed a data analysis project based on real life data. The project focused on the various careers regarding data and the salaries and satisfaction levels of people wokrking in these careers under different roles. 
 This project covered essential data analysis skills such as data cleaning, visualization and statistical analysis, which was achieved using Excel and PowerBI. 
-### Overview of Data Careers Dashboard 	![](Screenshot 2025-06-20 151455.png)
+### Overview of Data Careers Dashboard 	![](DataCareerDash.png)
 
 ## [Project 2: Housing Prices Predictive Model](https://github.com/YudhirD/Portfolio/blob/Housing-Prices-Prediction-Model/HousingPricesModel.ipynb)
 
