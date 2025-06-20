@@ -5,12 +5,13 @@
 
 In this project i completed a data analysis project based on real life data. The project focused on the various careers regarding data and the salaries and satisfaction levels of people wokrking in these careers under different roles. 
 This project covered essential data analysis skills such as data cleaning, visualization and statistical analysis, which was achieved using Excel and PowerBI. 
-### Overview of Data Careers Dashboard 	![](image.png)
+### Overview of Data Careers Dashboard 	![](Screenshot 2025-06-20 151455.png)
 
 ## [Project 2: Housing Prices Predictive Model](https://github.com/YudhirD/Portfolio/blob/Housing-Prices-Prediction-Model/HousingPricesModel.ipynb)
 
 In this project I utilized a comprehensive housing dataset to construct an advanced Linear Regression model. This model is designed to accurately forecast the future market value of residential properties by incorporating critical factors such as square footage, number of bedrooms, bathrooms, and other relevant features. Throughout the project, I deepened my expertise in predictive modeling, data preparation, and standardization techniques. Additionally, I refined my skills in fine-tuning predictive models to enhance their accuracy and reliability.
 Skills: Machine Learning Algorithms · Data Preparation · Linear Regression · Feature Selection · Seaborn · NumPy · Scikit-Learn · Machine Learning · Data Cleaning · Exploratory Data Analysis · Datasets · Predictive Modeling
+### Screenshot of the Predictive model in JupyterNB 	![](image.png)
 
 ## [Project 3: Housing Prices Model Evaluation](https://github.com/YudhirD/Portfolio/blob/HexSoftwares_Project_Model_Evaluation/HousingPricesModel%20(1).ipynb)
 
