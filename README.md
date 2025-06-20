@@ -3,7 +3,7 @@
 
 ## [Project 1: Data-Careers_PowerBI](https://github.com/YudhirD/Portfolio/tree/Data-Careers_PowerBI)
 
-In this project i completed a data analysis project based on real life data. The project focused on the various careers regarding data and the salaries and satisfaction levels of people wokrking in these careers under different roles. 
+In this project I completed a data analysis project based on real life data. The project focused on the various careers regarding data and the salaries and satisfaction levels of people working in these careers under different roles. 
 This project covered essential data analysis skills such as data cleaning, visualization and statistical analysis, which was achieved using Excel and PowerBI. 
 ### Overview of Data Careers Dashboard 	![](DataCareerDash.png)
 
@@ -17,7 +17,7 @@ Skills: Machine Learning Algorithms · Data Preparation · Linear Regression · 
 
 Just wrapped up refining the Housing Price prediction project using Linear Regression, Lasso, and Ridge models. I have focused on ensuring robust evaluation by implementing key regression metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared. These metrics provide a clear and accurate understanding of the models' performance in predicting continuous price values.
 To further enhance analysis, I incorporated insightful visualizations. I also generated scatter plots of predicted versus actual prices, to visually assess the model's accuracy. Residual plots helped to identify and understand error patterns, while residual histograms provided a clear picture of the error distribution. These visualizations are crucial for gaining a deeper understanding of model behavior and identifying potential areas for improvement.
-By applying these best practices in regression analysis, I have strengthened the project's reliability and provided a more comprehensive evaluation of our predictive models. This approach ensures more accurate and valuable insights for real-world applications.
+By applying good practices in regression analysis, I have strengthened the project's reliability and provided a more comprehensive evaluation of our predictive models. This approach ensures more accurate and valuable insights for real-world applications.
 Skills: Data Cleaning · Data Visualization · Exploratory Data Analysis · Predictive Modeling · Linear Regression · Machine Learning Algorithms
 ![](Histogram.png)
 ![](Res.png)
