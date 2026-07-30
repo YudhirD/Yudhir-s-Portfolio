@@ -1,24 +1,31 @@
-# Yudhir-s-Portfolio
-# Data Analytics Portfolio
+# Yudhir Dhanraj | Data Science Portfolio
 
-## [Project 1: Data-Careers_PowerBI](https://github.com/YudhirD/Portfolio/tree/Data-Careers_PowerBI)
+Portfolio site for selected analytics, business intelligence, and machine learning projects.
 
-In this project I completed a data analysis project based on real life data. The project focused on the various careers regarding data and the salaries and satisfaction levels of people working in these careers under different roles. 
-This project covered essential data analysis skills such as data cleaning, visualization and statistical analysis, which was achieved using Excel and PowerBI. 
-### Overview of Data Careers Dashboard 	![](DataCareerDash.png)
+Live site: https://yudhird.github.io/Yudhir-s-Portfolio/
 
-## [Project 2: Housing Prices Predictive Model](https://github.com/YudhirD/Portfolio/blob/Housing-Prices-Prediction-Model/HousingPricesModel.ipynb)
+## Featured Projects
 
-In this project I utilized a comprehensive housing dataset to construct an advanced Linear Regression model. This model is designed to accurately forecast the future market value of residential properties by incorporating critical factors such as square footage, number of bedrooms, bathrooms, and other relevant features. Throughout the project, I deepened my expertise in predictive modeling, data preparation, and standardization techniques. Additionally, I refined my skills in fine-tuning predictive models to enhance their accuracy and reliability.
-Skills: Machine Learning Algorithms · Data Preparation · Linear Regression · Feature Selection · Seaborn · NumPy · Scikit-Learn · Machine Learning · Data Cleaning · Exploratory Data Analysis · Datasets · Predictive Modeling
-### Screenshot of the Predictive model in JupyterNB 	![](image.png)
+### Municipal Outage Risk Intelligence
 
-## [Project 3: Housing Prices Model Evaluation](https://github.com/YudhirD/Portfolio/blob/HexSoftwares_Project_Model_Evaluation/HousingPricesModel%20(1).ipynb)
+An interactive React and TypeScript dashboard for a real South African resilience problem: power interruptions cascading into water delivery failures, clinic disruption, and small-business losses.
 
-Just wrapped up refining the Housing Price prediction project using Linear Regression, Lasso, and Ridge models. I have focused on ensuring robust evaluation by implementing key regression metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared. These metrics provide a clear and accurate understanding of the models' performance in predicting continuous price values.
-To further enhance analysis, I incorporated insightful visualizations. I also generated scatter plots of predicted versus actual prices, to visually assess the model's accuracy. Residual plots helped to identify and understand error patterns, while residual histograms provided a clear picture of the error distribution. These visualizations are crucial for gaining a deeper understanding of model behavior and identifying potential areas for improvement.
-By applying good practices in regression analysis, I have strengthened the project's reliability and provided a more comprehensive evaluation of our predictive models. This approach ensures more accurate and valuable insights for real-world applications.
-Skills: Data Cleaning · Data Visualization · Exploratory Data Analysis · Predictive Modeling · Linear Regression · Machine Learning Algorithms
-![](Histogram.png)
-![](Res.png)
-![](Scatter.png)
+Repository: https://github.com/YudhirD/sa-outage-risk-intelligence
+
+### Data Careers Power BI Dashboard
+
+A Power BI dashboard analysing salary, satisfaction, and role trends across data careers.
+
+Repository: https://github.com/YudhirD/Data-Careers_PowerBI
+
+### Housing Price Model Evaluation
+
+A regression evaluation notebook comparing Linear Regression, Lasso, and Ridge with error metrics and residual diagnostics.
+
+Repository: https://github.com/YudhirD/HexSoftwares_Project_Model_Evaluation
+
+### Housing Prices Prediction Model
+
+A machine learning notebook for predicting property prices from structured housing features.
+
+Repository: https://github.com/YudhirD/Housing-Prices-Prediction-Model
