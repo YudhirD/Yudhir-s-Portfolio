@@ -99,14 +99,83 @@
           <img src="DataCareerDash.png" alt="Data Careers Power BI dashboard preview" />
         </article>
 
-        <article class="project">
-          <span class="tag">Web development</span>
-          <h3>MABI Business Hub Website</h3>
-          <p>
-            A responsive React and TypeScript website for a local co-working and
-            business incubation hub, built with reusable components and practical SEO.
-          </p>
-          <a href="https://github.com/YudhirD/mabiplace">Open repository</a>
+        <article id="mabi-project" class="project mabi-project">
+          <div>
+            <span class="tag">Web development</span>
+            <h3>MABI Business Hub Website</h3>
+            <p>
+              A responsive React and TypeScript website for a local co-working and
+              business incubation hub, built with reusable components and practical SEO.
+            </p>
+            <a href="https://github.com/YudhirD/mabiplace">Open repository</a>
+          </div>
+
+          <div
+            class="slideshow"
+            data-slideshow
+            role="region"
+            aria-label="MABI website screenshots"
+            tabindex="0"
+          >
+            <div class="slideshow-frame">
+              <img
+                class="slide"
+                data-slide
+                data-caption="MABI home page"
+                src="assets/mabi/home.png"
+                alt="MABI website home page with business hub introduction"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                class="slide"
+                data-slide
+                data-caption="Workspace features"
+                src="assets/mabi/features.png"
+                alt="MABI website showing workspace and business features"
+                loading="lazy"
+                decoding="async"
+                hidden
+              />
+              <img
+                class="slide"
+                data-slide
+                data-caption="Membership pricing"
+                src="assets/mabi/pricing.png"
+                alt="MABI website membership pricing cards"
+                loading="lazy"
+                decoding="async"
+                hidden
+              />
+              <img
+                class="slide"
+                data-slide
+                data-caption="Contact page"
+                src="assets/mabi/contact.png"
+                alt="MABI website contact form and location details"
+                loading="lazy"
+                decoding="async"
+                hidden
+              />
+
+              <button class="slide-control previous" type="button" data-slide-previous aria-label="Previous screenshot">
+                <span aria-hidden="true">&#8592;</span>
+              </button>
+              <button class="slide-control next" type="button" data-slide-next aria-label="Next screenshot">
+                <span aria-hidden="true">&#8594;</span>
+              </button>
+            </div>
+
+            <div class="slideshow-footer">
+              <p class="slide-caption" data-slide-caption aria-live="polite">MABI home page</p>
+              <div class="slide-dots" aria-label="Choose a screenshot">
+                <button type="button" data-slide-to="0" aria-label="Show home page" aria-pressed="true"></button>
+                <button type="button" data-slide-to="1" aria-label="Show workspace features" aria-pressed="false"></button>
+                <button type="button" data-slide-to="2" aria-label="Show membership pricing" aria-pressed="false"></button>
+                <button type="button" data-slide-to="3" aria-label="Show contact page" aria-pressed="false"></button>
+              </div>
+            </div>
+          </div>
         </article>
 
         <div class="project-grid">
@@ -150,5 +219,7 @@
         </div>
       </section>
     </main>
+
+    <script src="slideshow.js"></script>
   </body>
 </html>

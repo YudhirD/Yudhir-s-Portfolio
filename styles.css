@@ -271,6 +271,109 @@ h1 {
   border: 1px solid rgba(22, 33, 44, 0.12);
 }
 
+.mabi-project {
+  overflow: hidden;
+}
+
+.slideshow {
+  margin-top: 24px;
+  outline: none;
+}
+
+.slideshow:focus-visible {
+  border-radius: 8px;
+  box-shadow: 0 0 0 3px rgba(29, 111, 143, 0.35);
+}
+
+.slideshow-frame {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1904 / 909;
+  border: 1px solid rgba(22, 33, 44, 0.12);
+  border-radius: 8px;
+  background: #e9eef2;
+}
+
+.slide {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide[hidden] {
+  display: none;
+}
+
+.slide-control {
+  position: absolute;
+  top: 50%;
+  display: grid;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  background: rgba(22, 33, 44, 0.82);
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  place-items: center;
+  transform: translateY(-50%);
+}
+
+.slide-control:hover,
+.slide-control:focus-visible {
+  background: #0e5f78;
+}
+
+.slide-control.previous {
+  left: 14px;
+}
+
+.slide-control.next {
+  right: 14px;
+}
+
+.slideshow-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.project .slide-caption {
+  margin: 0;
+  color: #526273;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.slide-dots {
+  display: flex;
+  gap: 8px;
+}
+
+.slide-dots button {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #b9c4cd;
+  cursor: pointer;
+}
+
+.slide-dots button[aria-pressed="true"] {
+  background: #0e5f78;
+}
+
+.slide-dots button:focus-visible {
+  outline: 3px solid rgba(29, 111, 143, 0.35);
+  outline-offset: 3px;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -305,5 +408,10 @@ h1 {
   .project-grid,
   .stats {
     grid-template-columns: 1fr;
+  }
+
+  .slide-control {
+    width: 38px;
+    height: 38px;
   }
 }
