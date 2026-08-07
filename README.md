@@ -18,6 +18,12 @@ A Power BI dashboard analysing salary, satisfaction, and role trends across data
 
 Repository: https://github.com/YudhirD/Data-Careers_PowerBI
 
+### MABI Business Hub Website
+
+A responsive React and TypeScript website for a local co-working and business incubation hub.
+
+Repository: https://github.com/YudhirD/mabiplace
+
 ### Housing Price Model Evaluation
 
 A regression evaluation notebook comparing Linear Regression, Lasso, and Ridge with error metrics and residual diagnostics.
