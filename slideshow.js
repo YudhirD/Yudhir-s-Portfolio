@@ -35,3 +35,5 @@ document.querySelectorAll("[data-slideshow]").forEach((slideshow) => {
     if (event.key === "ArrowRight") showSlide(currentSlide + 1);
   });
 });
+
+window.lucide?.createIcons();
