@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Data and software portfolio for Yudhir Dhanraj, featuring network monitoring, South African outage risk intelligence, Power BI dashboards, and machine learning projects."
+      content="Project notes by Yudhir Dhanraj on data analysis, machine learning, dashboards, and operational software."
     />
-    <title>Yudhir Dhanraj | Data &amp; Software Portfolio</title>
+    <title>Yudhir's Project Notes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,219 +18,240 @@
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
-    <div class="ambient-shape shape-mint" aria-hidden="true"></div>
-    <div class="ambient-shape shape-lilac" aria-hidden="true"></div>
 
-    <header class="site-header glass-panel">
-      <a class="brand" href="#top" aria-label="Yudhir Dhanraj, home">
-        <span class="brand-mark">YD</span>
-        <span>Yudhir Dhanraj</span>
-      </a>
-      <nav aria-label="Primary navigation">
-        <a href="#projects">Work</a>
-        <a href="#skills">Toolkit</a>
-        <a class="nav-github" href="https://github.com/YudhirD">
-          <i data-lucide="github" aria-hidden="true"></i>
-          GitHub
+    <header class="site-header">
+      <div class="shell site-header__inner">
+        <a class="site-brand" href="#top" aria-label="Yudhir's project notes, home">
+          <span class="site-brand__mark" aria-hidden="true">YD</span>
+          <span class="site-brand__text">
+            <strong>Yudhir's notes</strong>
+            <small>Data, software, and systems</small>
+          </span>
         </a>
-      </nav>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#projects">Project notes</a>
+          <a href="#toolbox">Toolbox</a>
+          <a class="icon-link" href="https://github.com/YudhirD" aria-label="Yudhir Dhanraj on GitHub">
+            <i data-lucide="github" aria-hidden="true"></i>
+          </a>
+        </nav>
+      </div>
     </header>
 
     <main id="main-content">
-      <section id="top" class="hero section-shell">
-        <div class="hero-copy">
-          <p class="intro-pill"><span aria-hidden="true">👋</span> Hello, I’m Yudhir</p>
-          <h1>I build data products that make <span>complex systems</span> feel simple.</h1>
-          <p class="hero-description">
-            I turn operational problems and messy data into clear dashboards,
-            explainable models, and dependable full-stack tools—with a focus on
-            useful outcomes for South African teams.
+      <section id="top" class="shell intro">
+        <div class="intro__copy">
+          <p class="meta-line">Project journal <span aria-hidden="true">/</span> South Africa</p>
+          <h1>Notes on data, software, and <em>systems that refuse to behave.</em></h1>
+          <p class="intro__summary">
+            This is a working collection of project notes. Each entry records the
+            problem, the implementation choices, and the small details that became
+            more interesting than the original brief.
           </p>
-          <div class="actions">
-            <a class="button button-primary" href="#projects">
-              Explore my work
-              <i data-lucide="arrow-down-right" aria-hidden="true"></i>
+          <div class="intro__actions">
+            <a class="button" href="#projects">
+              Read the project notes
+              <i data-lucide="arrow-down" aria-hidden="true"></i>
             </a>
-            <a class="button button-secondary" href="https://github.com/YudhirD">
-              <i data-lucide="github" aria-hidden="true"></i>
-              View GitHub
+            <a class="text-link" href="https://github.com/YudhirD">
+              Browse the source
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
             </a>
-          </div>
-          <div class="hero-notes" aria-label="Professional focus">
-            <span><i data-lucide="map-pin" aria-hidden="true"></i> South Africa</span>
-            <span><i data-lucide="sparkles" aria-hidden="true"></i> Data + software</span>
           </div>
         </div>
 
-        <aside class="hero-dashboard glass-panel" aria-label="Current project highlight">
-          <div class="dashboard-heading">
-            <div class="icon-tile icon-mint"><i data-lucide="activity" aria-hidden="true"></i></div>
-            <span class="live-pill"><span aria-hidden="true"></span> System live</span>
+        <aside class="index-card" aria-labelledby="index-heading">
+          <div class="index-card__header">
+            <i data-lucide="notebook-tabs" aria-hidden="true"></i>
+            <h2 id="index-heading">Inside the notebook</h2>
           </div>
-          <p class="card-kicker">Currently building</p>
-          <h2>InstaToll Network Dash</h2>
-          <p>
-            Live infrastructure visibility, incident analytics, and secure device
-            operations in one focused dashboard.
+          <ul class="index-list">
+            <li><span>01</span><a href="#operations">Operational systems</a></li>
+            <li><span>02</span><a href="#analytics">Analytics and BI</a></li>
+            <li><span>03</span><a href="#machine-learning">Machine learning</a></li>
+          </ul>
+          <p class="index-card__note">
+            Six projects, grouped by the questions they answer rather than the tools
+            they happen to use.
           </p>
-          <div class="dashboard-metrics">
-            <div>
-              <i data-lucide="network" aria-hidden="true"></i>
-              <strong>Live</strong>
-              <span>device status</span>
-            </div>
-            <div>
-              <i data-lucide="shield-check" aria-hidden="true"></i>
-              <strong>Secure</strong>
-              <span>admin access</span>
-            </div>
-            <div>
-              <i data-lucide="bar-chart-3" aria-hidden="true"></i>
-              <strong>Clear</strong>
-              <span>downtime insight</span>
-            </div>
-          </div>
-          <a class="text-link" href="https://github.com/YudhirD/Dash">
-            Explore the repository
-            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-          </a>
         </aside>
       </section>
 
-      <section class="stats section-shell" aria-label="Portfolio summary">
-        <article class="glass-panel">
-          <div class="stat-icon pastel-peach"><i data-lucide="folder-kanban" aria-hidden="true"></i></div>
-          <div><strong>6</strong><span>public projects</span></div>
-        </article>
-        <article class="glass-panel">
-          <div class="stat-icon pastel-blue"><i data-lucide="layers-3" aria-hidden="true"></i></div>
-          <div><strong>4</strong><span>connected disciplines</span></div>
-        </article>
-        <article class="glass-panel">
-          <div class="stat-icon pastel-lilac"><i data-lucide="circle-check-big" aria-hidden="true"></i></div>
-          <div><strong>100%</strong><span>focused on usable outputs</span></div>
-        </article>
-      </section>
+      <div class="shell journal-rule" aria-hidden="true"></div>
 
-      <section id="projects" class="projects section-shell">
-        <div class="section-heading">
+      <section id="projects" class="shell journal-section">
+        <header class="section-header">
           <div>
-            <p class="eyebrow"><i data-lucide="sparkles" aria-hidden="true"></i> Selected work</p>
-            <h2>Projects built around real decisions.</h2>
+            <p class="meta-line">Selected work</p>
+            <h2>Project notes</h2>
           </div>
           <p>
-            A mix of operational software, analytics, business intelligence, and
-            machine learning—from raw inputs to polished interfaces.
+            Short technical accounts of what each project does, where the complexity
+            lives, and which assumptions needed a second look.
           </p>
-        </div>
+        </header>
 
-        <div class="featured-grid">
-          <article class="project project-featured project-mint">
-            <div class="project-topline">
-              <div class="icon-tile icon-green"><i data-lucide="network" aria-hidden="true"></i></div>
-              <span class="project-number">01</span>
-            </div>
-            <div>
-              <p class="tag">Full-stack network operations</p>
+        <div id="operations" class="entry-grid entry-grid--two">
+          <article class="entry-card entry-card--mint">
+            <header class="entry-card__header">
+              <span class="entry-icon entry-icon--green"><i data-lucide="network" aria-hidden="true"></i></span>
+              <div>
+                <p class="entry-card__category">Operational systems</p>
+                <p class="entry-card__number">Note 01</p>
+              </div>
+            </header>
+            <div class="entry-card__body">
               <h3>InstaToll Network Dash</h3>
               <p>
-                A real-time monitoring platform for toll-plaza devices and bank-server
-                links, combining fleet health, incident history, downtime analytics,
-                and authenticated device management.
+                A Node.js and SQL Server application that polls toll-plaza devices,
+                tracks their bank-server links, records incidents, and turns event
+                history into downtime summaries.
               </p>
+              <aside class="entry-observation">
+                <i data-lucide="scan-search" aria-hidden="true"></i>
+                <p>
+                  <strong>The interesting bit:</strong> a device can be reachable while
+                  its bank link is unavailable. Treating those as separate states keeps
+                  a green status light from hiding an operational failure.
+                </p>
+              </aside>
             </div>
-            <ul class="chip-list" aria-label="InstaToll technologies and capabilities">
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>SQL Server</li>
-              <li>Chart.js</li>
-            </ul>
-            <a class="project-link" href="https://github.com/YudhirD/Dash">
-              Open repository <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-            </a>
+            <footer class="entry-card__footer">
+              <ul class="tag-list" aria-label="Technologies">
+                <li>Node.js</li><li>Express</li><li>SQL Server</li><li>Chart.js</li>
+              </ul>
+              <a class="entry-link" href="https://github.com/YudhirD/Dash">
+                Source and notes <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </footer>
           </article>
 
-          <article class="project project-featured project-lilac">
-            <div class="project-topline">
-              <div class="icon-tile icon-purple"><i data-lucide="zap" aria-hidden="true"></i></div>
-              <span class="project-number">02</span>
-            </div>
-            <div>
-              <p class="tag">Data science product</p>
+          <article class="entry-card entry-card--lilac">
+            <header class="entry-card__header">
+              <span class="entry-icon entry-icon--purple"><i data-lucide="zap" aria-hidden="true"></i></span>
+              <div>
+                <p class="entry-card__category">Decision support</p>
+                <p class="entry-card__number">Note 02</p>
+              </div>
+            </header>
+            <div class="entry-card__body">
               <h3>Municipal Outage Risk Intelligence</h3>
               <p>
-                A South African decision-support dashboard estimating where power
-                interruptions can cascade into water shortages, clinic disruption,
-                and small-business trading losses.
+                A React dashboard that estimates how electricity interruptions can
+                propagate into water delivery, clinic operations, and small-business
+                trading across South African municipalities.
               </p>
+              <aside class="entry-observation">
+                <i data-lucide="scan-search" aria-hidden="true"></i>
+                <p>
+                  <strong>The interesting bit:</strong> the score stays decomposable.
+                  A municipality is not simply labelled “high risk”; each contributing
+                  pressure remains visible enough to question or adjust.
+                </p>
+              </aside>
             </div>
-            <ul class="chip-list" aria-label="Outage intelligence technologies and capabilities">
-              <li>React</li>
-              <li>TypeScript</li>
-              <li>Recharts</li>
-              <li>Explainable scoring</li>
-            </ul>
-            <a class="project-link" href="https://github.com/YudhirD/sa-outage-risk-intelligence">
-              Open repository <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-            </a>
+            <footer class="entry-card__footer">
+              <ul class="tag-list" aria-label="Technologies">
+                <li>React</li><li>TypeScript</li><li>Recharts</li><li>Risk modelling</li>
+              </ul>
+              <a class="entry-link" href="https://github.com/YudhirD/sa-outage-risk-intelligence">
+                Source and notes <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </footer>
           </article>
         </div>
 
-        <article class="project project-showcase">
-          <div class="project-copy">
-            <div class="icon-tile icon-blue"><i data-lucide="bar-chart-3" aria-hidden="true"></i></div>
-            <p class="tag">Business intelligence</p>
-            <h3>Data Careers Power BI Dashboard</h3>
-            <p>
-              An interactive view of salary, satisfaction, role, and work-life balance
-              trends across data careers. Designed to turn survey data into an easy
-              stakeholder story.
-            </p>
-            <ul class="feature-list">
-              <li><i data-lucide="check" aria-hidden="true"></i> Data cleaning and transformation</li>
-              <li><i data-lucide="check" aria-hidden="true"></i> Stakeholder-focused reporting</li>
-              <li><i data-lucide="check" aria-hidden="true"></i> Clear comparative visuals</li>
-            </ul>
-            <a class="project-link" href="https://github.com/YudhirD/Data-Careers_PowerBI">
-              Open repository <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-            </a>
+        <article id="analytics" class="entry-card entry-card--wide">
+          <div class="entry-card__content">
+            <header class="entry-card__header">
+              <span class="entry-icon entry-icon--blue"><i data-lucide="bar-chart-3" aria-hidden="true"></i></span>
+              <div>
+                <p class="entry-card__category">Business intelligence</p>
+                <p class="entry-card__number">Note 03</p>
+              </div>
+            </header>
+            <div class="entry-card__body">
+              <h3>Data Careers Power BI Dashboard</h3>
+              <p>
+                A compact exploration of salary, role, satisfaction, and work-life
+                balance survey data. The dashboard separates headline comparisons from
+                filters that change the population behind them.
+              </p>
+              <aside class="entry-observation">
+                <i data-lucide="scan-search" aria-hidden="true"></i>
+                <p>
+                  <strong>The interesting bit:</strong> salary is the loudest measure,
+                  but satisfaction moves differently across roles. Keeping both visible
+                  prevents compensation from becoming the entire story.
+                </p>
+              </aside>
+            </div>
+            <footer class="entry-card__footer">
+              <ul class="tag-list" aria-label="Technologies">
+                <li>Power BI</li><li>Data cleaning</li><li>Survey analysis</li>
+              </ul>
+              <a class="entry-link" href="https://github.com/YudhirD/Data-Careers_PowerBI">
+                Source and notes <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </footer>
           </div>
-          <div class="image-shell pastel-blue">
+          <figure class="entry-media entry-media--blue">
             <img src="DataCareerDash.png" alt="Data Careers Power BI dashboard preview" loading="lazy" />
-          </div>
+            <figcaption>Survey overview with role, salary, and satisfaction comparisons.</figcaption>
+          </figure>
         </article>
 
-        <article id="mabi-project" class="project project-slideshow">
-          <div class="slideshow-copy">
-            <div class="icon-tile icon-peach"><i data-lucide="panels-top-left" aria-hidden="true"></i></div>
-            <p class="tag">Web development</p>
-            <h3>MABI Business Hub Website</h3>
-            <p>
-              A responsive React and TypeScript website for a local co-working and
-              business incubation hub, built with reusable components and practical SEO.
-            </p>
-            <a class="project-link" href="https://github.com/YudhirD/mabiplace">
-              Open repository <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-            </a>
+        <article class="entry-card entry-card--wide">
+          <div class="entry-card__content">
+            <header class="entry-card__header">
+              <span class="entry-icon entry-icon--peach"><i data-lucide="panels-top-left" aria-hidden="true"></i></span>
+              <div>
+                <p class="entry-card__category">Web development</p>
+                <p class="entry-card__number">Note 04</p>
+              </div>
+            </header>
+            <div class="entry-card__body">
+              <h3>MABI Business Hub Website</h3>
+              <p>
+                A React and TypeScript site for a co-working and incubation hub. Its
+                component structure supports information for tenants, founders, and
+                visitors without turning the navigation into a directory tree.
+              </p>
+              <aside class="entry-observation">
+                <i data-lucide="scan-search" aria-hidden="true"></i>
+                <p>
+                  <strong>The interesting bit:</strong> the same physical space means
+                  “workspace,” “support programme,” and “meeting place” to different
+                  readers. The page hierarchy has to answer all three without repeating itself.
+                </p>
+              </aside>
+            </div>
+            <footer class="entry-card__footer">
+              <ul class="tag-list" aria-label="Technologies">
+                <li>React</li><li>TypeScript</li><li>Responsive UI</li><li>SEO</li>
+              </ul>
+              <a class="entry-link" href="https://github.com/YudhirD/mabiplace">
+                Source and notes <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </footer>
           </div>
 
           <div class="slideshow" data-slideshow role="region" aria-label="MABI website screenshots" tabindex="0">
-            <div class="slideshow-frame">
-              <img class="slide" data-slide data-caption="MABI home page" src="assets/mabi/home.png" alt="MABI website home page with business hub introduction" loading="lazy" decoding="async" />
-              <img class="slide" data-slide data-caption="Workspace features" src="assets/mabi/features.png" alt="MABI website showing workspace and business features" loading="lazy" decoding="async" hidden />
-              <img class="slide" data-slide data-caption="Membership pricing" src="assets/mabi/pricing.png" alt="MABI website membership pricing cards" loading="lazy" decoding="async" hidden />
-              <img class="slide" data-slide data-caption="Contact page" src="assets/mabi/contact.png" alt="MABI website contact form and location details" loading="lazy" decoding="async" hidden />
-
-              <button class="slide-control previous" type="button" data-slide-previous aria-label="Previous screenshot">
+            <div class="slideshow__frame">
+              <img class="slideshow__slide" data-slide data-caption="MABI home page" src="assets/mabi/home.png" alt="MABI website home page with business hub introduction" loading="lazy" decoding="async" />
+              <img class="slideshow__slide" data-slide data-caption="Workspace features" src="assets/mabi/features.png" alt="MABI website showing workspace and business features" loading="lazy" decoding="async" hidden />
+              <img class="slideshow__slide" data-slide data-caption="Membership pricing" src="assets/mabi/pricing.png" alt="MABI website membership pricing cards" loading="lazy" decoding="async" hidden />
+              <img class="slideshow__slide" data-slide data-caption="Contact page" src="assets/mabi/contact.png" alt="MABI website contact form and location details" loading="lazy" decoding="async" hidden />
+              <button class="slideshow__control slideshow__control--previous" type="button" data-slide-previous aria-label="Previous screenshot">
                 <i data-lucide="chevron-left" aria-hidden="true"></i>
               </button>
-              <button class="slide-control next" type="button" data-slide-next aria-label="Next screenshot">
+              <button class="slideshow__control slideshow__control--next" type="button" data-slide-next aria-label="Next screenshot">
                 <i data-lucide="chevron-right" aria-hidden="true"></i>
               </button>
             </div>
-            <div class="slideshow-footer">
-              <p class="slide-caption" data-slide-caption aria-live="polite">MABI home page</p>
-              <div class="slide-dots" aria-label="Choose a screenshot">
+            <div class="slideshow__footer">
+              <p data-slide-caption aria-live="polite">MABI home page</p>
+              <div class="slideshow__dots" aria-label="Choose a screenshot">
                 <button type="button" data-slide-to="0" aria-label="Show home page" aria-pressed="true"></button>
                 <button type="button" data-slide-to="1" aria-label="Show workspace features" aria-pressed="false"></button>
                 <button type="button" data-slide-to="2" aria-label="Show membership pricing" aria-pressed="false"></button>
@@ -240,82 +261,118 @@
           </div>
         </article>
 
-        <div class="project-grid">
-          <article class="project project-compact project-peach">
-            <div class="icon-tile icon-peach"><i data-lucide="scale" aria-hidden="true"></i></div>
-            <p class="tag">Machine learning</p>
-            <h3>Housing Price Model Evaluation</h3>
-            <p>
-              Regression comparison using Linear Regression, Lasso, and Ridge with
-              error metrics and residual diagnostics.
-            </p>
-            <a class="project-link" href="https://github.com/YudhirD/HexSoftwares_Project_Model_Evaluation">
-              Open repository <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-            </a>
+        <div id="machine-learning" class="entry-grid entry-grid--two">
+          <article class="entry-card entry-card--peach">
+            <header class="entry-card__header">
+              <span class="entry-icon entry-icon--peach"><i data-lucide="scale" aria-hidden="true"></i></span>
+              <div>
+                <p class="entry-card__category">Model evaluation</p>
+                <p class="entry-card__number">Note 05</p>
+              </div>
+            </header>
+            <div class="entry-card__body">
+              <h3>Housing Price Model Evaluation</h3>
+              <p>
+                Linear Regression, Lasso, and Ridge are compared using error metrics
+                and residual behaviour rather than a single winning score.
+              </p>
+              <aside class="entry-observation">
+                <i data-lucide="scan-search" aria-hidden="true"></i>
+                <p>
+                  <strong>The interesting bit:</strong> regularisation can improve a
+                  model without making every metric look better. Residual shape often
+                  explains that trade-off more clearly than the leaderboard does.
+                </p>
+              </aside>
+            </div>
+            <footer class="entry-card__footer">
+              <ul class="tag-list" aria-label="Technologies">
+                <li>Python</li><li>Scikit-learn</li><li>Diagnostics</li>
+              </ul>
+              <a class="entry-link" href="https://github.com/YudhirD/HexSoftwares_Project_Model_Evaluation">
+                Source and notes <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </footer>
           </article>
-          <article class="project project-compact project-blue">
-            <div class="icon-tile icon-blue"><i data-lucide="brain-circuit" aria-hidden="true"></i></div>
-            <p class="tag">Predictive modelling</p>
-            <h3>Housing Prices Prediction Model</h3>
-            <p>
-              A notebook workflow covering data preparation, feature exploration,
-              regression modelling, and evaluation.
-            </p>
-            <a class="project-link" href="https://github.com/YudhirD/Housing-Prices-Prediction-Model">
-              Open repository <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-            </a>
+
+          <article class="entry-card entry-card--blue">
+            <header class="entry-card__header">
+              <span class="entry-icon entry-icon--blue"><i data-lucide="brain-circuit" aria-hidden="true"></i></span>
+              <div>
+                <p class="entry-card__category">Predictive modelling</p>
+                <p class="entry-card__number">Note 06</p>
+              </div>
+            </header>
+            <div class="entry-card__body">
+              <h3>Housing Prices Prediction Model</h3>
+              <p>
+                A notebook workflow that moves from feature exploration to a regression
+                baseline, then checks how well the resulting errors match the original
+                assumptions.
+              </p>
+              <aside class="entry-observation">
+                <i data-lucide="scan-search" aria-hidden="true"></i>
+                <p>
+                  <strong>The interesting bit:</strong> a believable prediction is not
+                  always a well-calibrated one. Plotting error against price range exposes
+                  where an apparently reasonable average hides expensive misses.
+                </p>
+              </aside>
+            </div>
+            <footer class="entry-card__footer">
+              <ul class="tag-list" aria-label="Technologies">
+                <li>Python</li><li>Regression</li><li>Feature analysis</li>
+              </ul>
+              <a class="entry-link" href="https://github.com/YudhirD/Housing-Prices-Prediction-Model">
+                Source and notes <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </footer>
           </article>
         </div>
       </section>
 
-      <section id="skills" class="skills section-shell glass-panel">
-        <div class="section-heading skills-heading">
+      <section id="toolbox" class="shell toolbox-section">
+        <header class="section-header">
           <div>
-            <p class="eyebrow"><i data-lucide="wrench" aria-hidden="true"></i> Toolkit</p>
-            <h2>Tools I use to move from question to product.</h2>
+            <p class="meta-line">Reference shelf</p>
+            <h2>Working toolbox</h2>
           </div>
-          <p>Practical choices for analysis, modelling, interfaces, and dependable delivery.</p>
-        </div>
-        <div class="skill-groups">
-          <article>
-            <div class="icon-tile icon-blue"><i data-lucide="database" aria-hidden="true"></i></div>
-            <h3>Data &amp; BI</h3>
-            <div class="skill-list"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Power BI</span><span>Excel</span><span>EDA</span></div>
+          <p>Grouped by purpose so the list describes a workflow rather than a collection of logos.</p>
+        </header>
+        <div class="toolbox-grid">
+          <article class="toolbox-card">
+            <i data-lucide="database" aria-hidden="true"></i>
+            <h3>Explore and explain</h3>
+            <p>Python, Pandas, NumPy, Power BI, Excel, exploratory analysis</p>
           </article>
-          <article>
-            <div class="icon-tile icon-purple"><i data-lucide="brain-circuit" aria-hidden="true"></i></div>
-            <h3>Machine learning</h3>
-            <div class="skill-list"><span>Scikit-learn</span><span>Regression</span><span>Model evaluation</span><span>Explainability</span></div>
+          <article class="toolbox-card">
+            <i data-lucide="binary" aria-hidden="true"></i>
+            <h3>Model and test</h3>
+            <p>Scikit-learn, regression, model evaluation, explainability</p>
           </article>
-          <article>
-            <div class="icon-tile icon-green"><i data-lucide="code-2" aria-hidden="true"></i></div>
-            <h3>Software</h3>
-            <div class="skill-list"><span>TypeScript</span><span>Node.js</span><span>Express</span><span>SQL Server</span><span>Dashboard design</span></div>
+          <article class="toolbox-card">
+            <i data-lucide="code-2" aria-hidden="true"></i>
+            <h3>Build and operate</h3>
+            <p>TypeScript, Node.js, Express, SQL Server, dashboard design</p>
           </article>
-        </div>
-      </section>
-
-      <section class="closing section-shell">
-        <div class="closing-card glass-panel">
-          <div class="closing-icon"><i data-lucide="message-circle" aria-hidden="true"></i></div>
-          <div>
-            <p class="eyebrow">Let’s connect <span aria-hidden="true">✨</span></p>
-            <h2>Have a data problem worth making simpler?</h2>
-            <p>Explore the work, follow the build process, or start a conversation on GitHub.</p>
-          </div>
-          <a class="button button-primary" href="https://github.com/YudhirD">
-            Visit GitHub <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-          </a>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer section-shell">
-      <span>© 2026 Yudhir Dhanraj</span>
-      <span>Designed with curiosity <span aria-hidden="true">💡</span></span>
+    <footer class="site-footer">
+      <div class="shell site-footer__inner">
+        <p>Yudhir Dhanraj <span aria-hidden="true">/</span> Project notes, 2026</p>
+        <a class="text-link" href="https://github.com/YudhirD">
+          GitHub archive <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+        </a>
+      </div>
     </footer>
 
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script
+      src="https://unpkg.com/lucide@1.33.0/dist/umd/lucide.js"
+      integrity="sha384-BftOSzMfAkHX0aHFHfSryAr9w2ZdrPzZmTx3575/ctKS/7MwXN1pbMn6Oq10vWKK"
+      crossorigin="anonymous"
+    ></script>
     <script src="slideshow.js"></script>
   </body>
 </html>
